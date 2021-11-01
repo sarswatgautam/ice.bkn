@@ -1,0 +1,309 @@
+@font-face {
+  src: url('fonts/LeagueMonoVariable.ttf');
+  font-family: 'LeagueMonoVariable';
+  font-style: normal;
+  font-stretch: 1% 500%;
+  /* Required by Chrome */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.5;
+  font-size: 1.05rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------------------------------------- */
+/* Header Section START */
+/* ------------------------------------------------------------------- */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.header-top-info {
+  background: #f9f9b1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.6rem 0;
+}
+
+.header-top-info .row {
+  margin: 0 auto;
+}
+
+.header-top-info .row div:first-child span {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #000b27 !important;
+}
+
+.header-top-info .row div:first-child span .fas {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  color: #000b27 !important;
+}
+
+.header-top-info .btn {
+  margin-right: 0.5rem;
+}
+
+.login-btn {
+  background: #000b27;
+  border-radius: 3rem;
+  width: 120px;
+  border: 2px solid #000b27 !important;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.register-btn {
+  background: transparent;
+  border: 2px solid #000b27 !important;
+  border-radius: 3rem;
+  width: 120px;
+  color: #000b27;
+  transition: all 0.4s ease-in-out;
+}
+
+.login-btn:hover {
+  background: transparent;
+  color: #000b27;
+}
+
+.register-btn:hover {
+  background: #000b27;
+  color: #fff;
+}
+
+.navbar {
+  /* background: linear-gradient(41deg, #000b27 43%, #fff 43.1%); */
+}
+
+.navbar .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar .logo img {
+  width: 4rem;
+  margin: 0 auto;
+}
+
+.navbar .logo h1 {
+  font-size: 1.5rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #000b27;
+  margin-left: 1em;
+}
+
+.navbar-show-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #000b27;
+}
+
+/* ------------------------------------------------------------------- */
+/* *nav* */
+/* ------------------------------------------------------------------- */
+.navbar-collapse {
+  background-color: #12a4d9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  border-left: 0.5px solid #fff;
+  z-index: 999;
+  transform: translateX(100%);
+}
+
+.showNavbar {
+  transform: translateX(0);
+}
+
+.navbar-hide-btn {
+  font-size: 1.6rem;
+  display: block;
+  margin: 1rem 1rem 1rem auto;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.navbar-nav {
+  padding: 1rem;
+}
+
+.navbar-nav li {
+  padding: 0.4rem 0;
+  margin: 0.25rem 0;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-nav li a {
+  color: #000b27 !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  padding-left: 1rem;
+  color: #322e2f !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* *nav* */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* Header Section END */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* Section-1 Banner START */
+/* ------------------------------------------------------------------- */
+.banner {
+  background-image: url("../img/02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 500px;
+}
+
+.container.banner-container {
+  width: 43rem !important;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-slider {
+  padding: 2rem 0;
+}
+
+.herot-title {
+  font-family: 'Robot', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.hero-content .text {
+  padding-bottom: 1rem;
+}
+
+.hero-btn {
+  background: #d9138a;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  width: 140px;
+  border-radius: 5px;
+}
+
+.hero-btn:hover {
+  background: #ba1076;
+}
+
+/* ------------------------------------------------------------------- */
+/* Section-1 Banner END */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* Section-2 Welcome START */
+/* ------------------------------------------------------------------- */
+.welcome {
+  background: #f4f3f3;
+  padding: 4rem 0;
+}
+
+.welcome .row>div:first-child {
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.welcome .item {
+  text-align: center;
+}
+
+.welcome .item span {
+  font-size: 2.6rem;
+}
+
+.welcome .item:nth-child(1) span {
+  color: #12a4d9;
+}
+
+.welcome .item:nth-child(2) span {
+  color: #d9138a;
+}
+
+.welcome .item:nth-child(3) span {
+  color: #e3d810;
+}
+
+.welcome .item:nth-child(4) span {
+  color: #322e2f;
+}
+
+.welcome .row>div:last-child {
+  display: none;
+  background: #f4f3f3;
+  padding-left: 1.5rem;
+}
+
+.welcome .row>div:last-child a {
+  color: #12a4d9;
+}
+
+/* ------------------------------------------------------------------- */
+/* Section-2 Welcome END */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* Section-3 Why START */
+/* ------------------------------------------------------------------- */
+.why {
+  padding: 4rem 0;
+}
+
+.why .container>p {
+  text-align: center;
+}
+
+.why .item {
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.why .item img {
+  width: 240px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------------------------------------- */
+/* Section-3 Why END */
+/* ------------------------------------------------------------------- */
