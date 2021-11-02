@@ -100,15 +100,15 @@ header {
 }
 
 .navbar .logo img {
-  width: 4rem;
+  /* width: 4rem; */
   margin: 0 auto;
 }
 
 .navbar .logo h1 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-family: 'Merriweather Sans', sans-serif;
   color: #000b27;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 
 .navbar-show-btn {
@@ -178,7 +178,7 @@ header {
 /* ------------------------------------------------------------------- */
 /* Section-1 Banner START */
 /* ------------------------------------------------------------------- */
-.banner {
+/* .banner {
   background-image: url("../img/02.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -186,13 +186,13 @@ header {
   color: white;
   text-align: center;
   min-height: 500px;
-}
+} */
 
-.container.banner-container {
+/* .container.banner-container {
   width: 43rem !important;
   margin: 0;
   padding: 0;
-}
+} */
 
 .hero-content {
   flex: 1;
@@ -218,7 +218,7 @@ header {
   background: #d9138a;
   color: #fff;
   transition: all 0.4s ease-in-out;
-  width: 140px;
+  /* width: 140px; */
   border-radius: 5px;
 }
 
